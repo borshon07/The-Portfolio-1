@@ -1,57 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Borshon Roy</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
 
-<!-- Gesit pixel google font-->
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap" rel="stylesheet">
+    <!--- Caesar Dressing google Font-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Kings&display=swap" rel="stylesheet">
 
-</head>
-<body>
+  </head>
+  <body>
     <!--Navbar start-->
-    <header>
-        <nav class="container">
-            <h2 class="logo">Borshon R<span class="logo-o">o</span>y</h2>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><button class="common-btn" type="button">Hire Me</button></li>
-            </ul>
-        </nav>
+    <header class="parent-container">
+      <nav class="container">
+        <h2 class="logo">
+          <span class="logo-b">B</span>orshon <span class="logo-o">R</span>oy
+        </h2>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><button class="common-btn" type="button">Hire Me</button></li>
+        </ul>
+      </nav>
     </header>
-<!--Navbar End-->
+    <!--Navbar End-->
 
-
-<!-- Hero section start-->
+    <!-- Hero section start-->
     <section class="hero-parent-background-1">
-        <div class="hero-parent container">
- <!-- Left div -->
-  <div class="hero-left">
-    <p class="hero-left-p-1">H, I am</p>
-    <h2>Borshon Roy</h2>
-    <p class="hero-left-p-2">Shot what able cold new see hold.Friendly as an betrayed formerly he. 
-        Morning because as to society behaved moments.</p>
+      <div class="hero-parent-container">
+        <!-- Left div -->
+        <div class="hero-left">
+          <p class="hero-left-p-1">Hi, I am</p>
+          <h2>Borshon Roy</h2>
+          <p class="hero-left-p-2">
+            Shot what able cold new see hold.Friendly as an betrayed formerly
+            he. Morning because as to society behaved moments.
+          </p>
 
-        <div class="hero-left-btn-parent">
+          <div class="hero-left-btn-parent">
             <button class="common-btn">Download CV</button>
             <button class="outline-btn">Contact</button>
+          </div>
         </div>
 
-  </div>
- 
-
-<!-- Right div-->
- <div class="hero-right">
-    <img src="./images/roy.png" class="hero-parent-image-1" alt="image">
-
- </div>
-  </div>
+        <!-- Right div-->
+        <div class="hero-right">
+          <img src="./images/roy.png" class="hero-parent-image-1" alt="image" />
+        </div>
+      </div>
     </section>
-</body>
+
+    <!-- Section Form start-->
+    <section class="herp-parent-box">
+      <div class="container">
+        <form class="herp-parent-box-form" action="#" method="POST">
+          <label for="name">Enter Your Name</label>
+          <input type="text" id="name" />
+
+          <label for="email">Enter Your Mail</label>
+          <input type="email" id="email" />
+
+          <label for="phone">Enter Your Number</label>
+          <input type="tel" id="phone" />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            placeholder="Write your message here"
+          ></textarea>
+
+          <button type="submit" class="common-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- form Section End-->
+
+    <!-- Footer section -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <h2 class="logo"><span class="logo-b">B</span>orshon <span class="logo-o">R</span>oy</h2>
+          <p class="footer-tagline">Building digital experiences with passion and precision.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect</h3>
+          <ul>
+            <li><a href="https://github.com/borshon07">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/borshon-roy/">LinkedIn</a></li>
+            <li><a href="https://x.com/borshonroy99">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Borshon Roy. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
